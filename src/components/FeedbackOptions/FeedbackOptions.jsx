@@ -6,7 +6,14 @@ export const FeedbackOptions = ({ btnLabelArray, onLeaveFeedback }) => {
   return (
     <>
       {btnLabelArray.map(btnLabel => (
-        <button className={css.button} type="button" key={btnLabel} onClick={() => onLeaveFeedback(btnLabel)}>{btnLabel}</button>
+        <button
+          className={css.button}
+          type="button"
+          key={btnLabel}
+          onClick={() => onLeaveFeedback(btnLabel)}
+        >
+          {btnLabel}
+        </button>
       ))}
     </>
   )
