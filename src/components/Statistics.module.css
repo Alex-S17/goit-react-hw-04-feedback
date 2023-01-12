@@ -1,0 +1,10 @@
+.statWrapper {
+  padding-left: 143px;
+  text-align: left;
+}
+
+.statistics {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(32, 32, 247);
+}
